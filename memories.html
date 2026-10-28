@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Girlfriend</title>
+<style>
+body { background-color: #ffe4ec; }
+h1 { text-align: center; border: 3px solid hotpink; padding: 10px; }
+.nav { text-align: center; margin-bottom: 20px; }
+.nav a {display: inline-block; font-size: 24px; padding: 10px 25px; margin: 5px; background-color: hotpink; color: white; text-decoration: none; border-radius: 10px; }
+.nav a:hover {background-color: deeppink; }
+</style>
+</head>
+
+<body>
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="memories.html">Memories</a>
+</div>
+
+<h1>Memories</h1>
+<h2>Our first date</h2>
+<p style="text-align: center;"><img src="date.jpeg" width="300"></p>
+<p>On our first date we did a book swap and watched 3 movies.</p>
+
+<h2>Our favourite holiday</h2>
+<p style="text-align: center;"><img src="holiday.jpeg" width="300"></p>
+<p>At the end of 2025 we spent 10 weeks in Europe.</p>
+
+<button onclick="showMessage()">Click me</button>
+<p id="message"></p>
+
+<script>
+// This runs when the button is clicked and shows a message on the page
+function showMessage() {
+  document.getElementById("message").textContent = "Thank you for being so amazing, Claudia!";
+}
+</script>
+
+<p style="text-align: center;">Made with love by Willem</p>
+
+</body>
+</html>
